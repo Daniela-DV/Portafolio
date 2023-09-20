@@ -1,0 +1,159 @@
+#titulo-contacto{
+    margin-bottom: 2%;
+    color: #460378;
+}
+
+.texto-contactar{
+    margin-left: 30%;
+}
+
+.texto-contactar:hover{
+    font-size: 1.5em;
+    margin-left: 25%;
+    cursor: pointer;
+    transition: 0.5s ease;
+    color:darkmagenta;
+    text-decoration: underline 0.5px solid darkmagenta;
+
+}
+
+.contacto-form-texto{
+    font-size: 1.2em;
+    padding-bottom: 2%;
+    line-height: initial;
+    font-weight: 500;
+    color: #140045;
+}
+
+.contacto-texto-label{
+    font-size: 1em;
+    padding-top: 2%;
+    padding-bottom:0.5% ;
+    color: #460378;
+}
+
+.contacto-form-input:focus{
+    border: 2px solid #b96cea;
+    outline:none;
+}
+.contacto-form-input:focus::placeholder{
+    color: transparent;
+}
+.contacto-form-textarea:focus{
+    border: 2px solid #b96cea;
+    outline:none;
+
+}
+
+.contacto-asuto{
+    margin-top: 1em;
+    color: #460378;
+    
+}
+
+
+@media screen and (min-width:0px) and (max-width:480px){
+
+    #titulo-contacto{
+        padding-top: 0.8em;
+        font-size: 1em;
+        padding-bottom: 0.5em;
+    }
+
+    .texto-contactar{
+        margin-left: 0;
+        font-size: 0.5rem;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .texto-contactar:hover{
+        font-size: 1em;
+        margin-left: 25%;    
+    }
+
+    .contacto-form-texto{
+        font-size: 0.7em;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        line-height: initial;
+        font-weight: 500;
+        color: #140045;
+    }
+
+    .contacto-texto-label{
+        font-size: 0.6em;
+        padding-top: 2%;
+        padding-bottom:1% ;
+    } 
+
+    .contacto-asuto{
+        font-size: 0.6em;
+        
+    }
+ 
+    .contacto-form-input:focus{
+        border: 1.5px solid #b96cea;
+        font-size: 0.4em;
+    }
+
+    .contacto-form-textarea:focus{
+        border: 1.5px solid #b96cea;
+        font-size: 0.4em;
+
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:960px){
+
+    #titulo-contacto{
+        margin-bottom: 2%;
+        font-size: 1.2em;
+    }
+
+    .texto-contactar{
+        margin-left: 0;
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .contacto-form-texto{
+        font-size: 1em;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        line-height: initial;
+        font-weight: 500;
+        color: #140045;
+    }
+
+    .contacto-texto-label{
+        font-size: 1em;
+        padding-top: 2%;
+        padding-bottom: 1.5%;
+    }
+
+
+    .contacto-form-input:focus{
+        border: 1.5px solid #b96cea;
+        font-size:0.9em;
+    }
+      
+
+    .texto-contactar:hover{
+        font-size: 1em;
+        margin-left: 25%;    
+    }
+
+  
+
+    .contacto-asuto{
+        font-size: 1em;
+        
+    }
+ 
+    .contacto-form-textarea:focus{
+        border: 1.5px solid #b96cea;
+        font-size: 1em;
+
+    }
+}

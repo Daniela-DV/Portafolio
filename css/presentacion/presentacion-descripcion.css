@@ -1,0 +1,35 @@
+.presentacion__descripcion{
+    margin-left: 10vw;
+    font-size: 1.5em;
+    line-height: 1.5rem;
+    color: #39075f;
+    font-style: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/*Modificaciones para celular*/
+
+
+@media screen and (min-width:0px) and (max-width:480px) {
+    .presentacion__descripcion{
+   
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+
+} 
+
+
+/*Modificacion tablet*/
+
+@media screen and (min-width:480px) and (max-width:960px){
+    .presentacion__descripcion{
+        font-size: 1.3em;
+        line-height: 1.2em;
+    }
+ 
+}
+
+   
+

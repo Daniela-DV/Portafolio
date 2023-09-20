@@ -1,0 +1,41 @@
+.sobre-mi{
+    max-width: 100%;
+    align-items: center;
+    margin-top: 2%;
+   
+}
+
+.sobre-mi_conteiner{
+    max-width: 80%;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    margin-left: 20%;
+    background: radial-gradient( white,#d3b6f7 90%);
+    border-radius: 20px 0 0 20px;
+    margin-bottom: 3%;
+    box-shadow: 0rem 0rem 0.5rem #44057e;
+}
+
+/*Modificacion Celular*/
+
+@media screen and (min-width:0px) and (max-width:480px){
+
+    .sobre-mi_conteiner{
+        max-width: 90%;
+        margin-top: 5%;
+        margin-left: 5%;
+        border-radius: 20px;
+    }
+}
+
+/*Modificacion tablet*/
+
+@media screen and (min-width:480px) and (max-width:960px){
+    .sobre-mi_conteiner{
+        max-width: 90%;
+        margin-top: 5%;
+        margin-left: 10%;
+     
+    }
+ 
+}

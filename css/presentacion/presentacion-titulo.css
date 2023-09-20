@@ -1,0 +1,32 @@
+.presentacion__titulo{
+    font-size: 3rem;
+    padding-top: 3.8rem;
+    text-align: left;
+    color: #39075f;
+    padding: 1rem;
+    text-align: end;
+    font-family: 'MonteCarlo', cursive;
+    font-style: italic;
+
+}
+
+/*Diseño para celular*/
+@media screen and (min-width:480px) and (max-width:960px){
+
+    .presentacion__titulo{
+        font-size: 2rem;
+    }
+}
+
+
+/*Modificacion tablet*/
+
+@media screen and (min-width:480px) and (max-width:960px){
+    .presentacion__titulo{
+        font-size: 2.5rem;
+        padding-right: 34%;
+ 
+    }
+ 
+}
+

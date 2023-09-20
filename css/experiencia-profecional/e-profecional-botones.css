@@ -1,0 +1,81 @@
+.conteiner_botones-encriptador{
+    margin-left: 3%;
+    margin-top: 2em;
+    gap: 10%;
+    width: 80%;
+
+}
+
+#demo{
+    width: 40%;
+    box-sizing: border-box;
+    background-color: #d3b0f6;
+    border-color: blueviolet;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 2%;
+    color:#431373;
+
+}
+
+#repositorio{
+    width: 40%;
+    box-sizing: border-box;
+    background-color: #d3b0f6;
+    border-color:blueviolet ;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 2%;
+    color:#431373;
+
+}
+
+@media screen and (min-width:0px) and (max-width:480px){
+
+    .conteiner_botones-encriptador{
+        margin-left: 3%;
+        margin-top: 0.5em;
+        gap: 10%;
+        width: 80%;
+        margin-bottom: 5%;
+    
+    }
+    
+    #demo{
+        font-size: 0.5em;
+        padding: 0.5%;
+        border:0;
+    }
+    
+    #repositorio{
+        font-size: 0.5em;
+        padding: 0.5%;
+        border:0;
+    }
+    
+}
+
+@media screen and (min-width:480px) and (max-width:960px){
+
+    .conteiner_botones-encriptador{
+        margin-left: 6%;
+        margin-top: 1em;
+        gap: 10%;
+        width: 70%;
+        margin-bottom: 5%;
+    
+    }
+    
+    #demo{
+        font-size: 1em;
+        padding: 2%;
+        border:0;
+    }
+    
+    #repositorio{
+        font-size: 1em;
+        padding: 2%;
+        border:0;
+    }
+    
+}

@@ -1,0 +1,29 @@
+
+.hobbies-item-conteiner>img{
+    width: 40px;
+    padding-bottom: 10%;
+}
+#tv{width: 50px;   padding-bottom: 8%; box-sizing: border-box;}
+
+
+/*Modificacion Celular*/
+
+@media screen and (min-width:0px) and (max-width:480px){
+
+    .hobbies-item-conteiner>img{
+        width: 20px;
+        padding-bottom: 10%;
+    } 
+}
+
+/*Modificacion Tablet*/
+
+@media screen and (min-width:480px) and (max-width:960px){
+
+    .hobbies-item-conteiner>img{
+        width: 40px;
+        padding-bottom: 4%;
+    } 
+
+    #tv{width: 50px;   padding-bottom: 2%; box-sizing: border-box;}
+}

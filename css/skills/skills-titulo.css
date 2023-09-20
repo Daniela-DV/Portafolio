@@ -1,0 +1,37 @@
+.skills__titulo{
+    
+    color:#39075f;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5;
+    font-size: 2rem;
+    padding-top: 3rem;
+
+    
+}
+
+/*Modificacion Celular*/
+
+@media screen and (min-width:0px) and (max-width:480px){
+
+    .skills__titulo{
+        font-size: 1rem;
+        padding-top: 1rem;  
+        font-size: 1.4rem;
+    }
+
+    
+}
+
+/*Modificacion tablet*/
+
+@media screen and (min-width:480px) and (max-width:960px){
+
+    .skills__titulo{
+        font-size: 1.4rem;
+        padding-top: 2rem;
+    }
+
+    
+}
+     

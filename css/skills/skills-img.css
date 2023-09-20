@@ -1,0 +1,44 @@
+
+
+
+#img-html{width: 25px; box-sizing: border-box;}
+#img-css{ width: 40px; box-sizing: border-box;}
+#img-js{width: 25px; box-sizing: border-box;}
+#img-node{width: 35px; box-sizing: border-box;}
+#img-github{width: 45px; box-sizing: border-box;}
+#img-ofimatica{width: 35px; box-sizing: border-box;}
+#img-react{width: 65px; box-sizing: border-box;}
+
+#empatia{width: 40px; box-sizing: border-box;}
+#respeto{width: 50px; box-sizing: border-box;}
+#adaptabilidad{width: 40px; box-sizing: border-box;}
+#resolucion-problemas{width: 45px; box-sizing: border-box;}
+#trabajo-equipo{width: 50px; box-sizing: border-box;}
+
+
+.skills-item-contenido > img{
+    padding-bottom: 5%;
+  
+     /* filter: invert(100%); */
+}
+
+/*Modificacion Celular*/
+
+@media screen and (min-width:0px) and (max-width:480px){
+
+    #img-html{width: 15px;}
+    #img-css{ width: 30px;}
+    #img-js{width: 15px;}
+    #img-node{width: 25px;}
+    #img-github{width: 35px;}
+    #img-ofimatica{width: 25px;}
+
+    #empatia{width: 30px;}
+    #respeto{width: 40px;}
+    #adaptabilidad{width: 30px;}
+    #resolucion-problemas{width: 35px;}
+    #trabajo-equipo{width: 40px;}
+    #img-react{width: 55px; box-sizing: border-box;}
+
+    
+}

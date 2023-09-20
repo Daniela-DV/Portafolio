@@ -1,0 +1,10 @@
+.cabecera{
+    max-width: 100vw;
+    height: auto;
+    background-color: #F4EBFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif; 
+    
+}

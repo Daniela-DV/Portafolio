@@ -1,0 +1,26 @@
+
+/*Diseño para Desktop*/
+
+.menu__link{
+    color: #5454C9;
+    padding-right: 1.25rem;
+   
+}
+
+.menu__link:hover{
+    transition: 0.5s ease;
+    cursor: pointer;
+    text-decoration:solid underline;
+    text-transform: uppercase;
+    font-size: 1.2rem; 
+}
+
+/*Modificaciones para celular y tablet*/
+
+
+@media screen and (max-width: 768px) {
+       
+    .menu__link{
+        display: none;
+    }
+}

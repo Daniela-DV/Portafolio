@@ -1,0 +1,68 @@
+.footer{
+    max-width: 100vw;
+    height: auto;
+    background-color: #F4EBFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.piePagina{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+    width: 100vw;
+    align-items: center;
+}
+
+.copyright{
+    justify-content: center;
+    margin: 10px;
+    font-weight: bolder;
+    color:#5454C9; 
+    font-size: 1em;
+    font-size: uppercase;
+ 
+}
+
+.redirecciones{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#github{
+    cursor:pointer;
+    width: 5%;
+    margin-right: 5%;
+}
+#linkedin{
+    cursor:pointer;
+    width: 5%;
+}
+
+/*Modificacion Celular*/
+
+@media screen and (min-width:0px) and (max-width:480px){
+    .copyright{
+        font-size: 0.5em;
+    }
+
+    .redirecciones{
+        display:none; 
+    }
+ 
+}
+
+/*Modificacion Tablet*/
+
+@media screen and (min-width:480px) and (max-width:960px){
+
+    .redirecciones{
+        display:none; 
+    }
+ 
+}

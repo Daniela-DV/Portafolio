@@ -1,0 +1,41 @@
+.conteiner-skills{
+
+    gap:2%;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.skills{
+    width: 45%;
+    align-content: center;
+    box-sizing: border-box;
+    background-color:rgb(245, 227, 254);
+    border-radius: 10px;
+    align-content: center;
+    box-shadow: 0rem 0rem 0.5rem #44057e;
+}
+
+
+
+/*Modificacion Celular*/
+
+@media screen and (min-width:0px) and (max-width:960px){
+
+    .conteiner-skills{
+
+        gap:2%;
+        flex-direction: column;
+        justify-content: space-around;
+    
+    }
+
+    .skills{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 2%;
+        
+    }
+
+    
+}
